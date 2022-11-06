@@ -162,7 +162,7 @@ global:
 #         - name: nri-redis
 #           env:
 #             # using the discovered IP as the hostname address
-#             HOSTNAME: ${discovery.ip}
+#             HOSTNAME: <discovery.ip>
 #             PORT: 6379
 #           labels:
 #             env: test
