@@ -11,7 +11,8 @@ locals {
 }
 
 module "helm_newrelic_nri_bundle" {
-  source = "github.com/SPHTech-Platform/terraform-helm-release?ref=init"
+  source  = "SPHTech-Platform/release/helm"
+  version = "~> 0.1.0"
 
   helm_config = local.helm_config
 }
