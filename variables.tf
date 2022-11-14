@@ -20,4 +20,3 @@ variable "helm_config" {
   type        = any
   default     = {}
 }
-
