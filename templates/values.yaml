@@ -18,9 +18,9 @@ kube-state-metrics:
 
   # kube-state-metrics.collectors -- Collectors configuration of kube-state-metric
   # @default -- See [`values.yaml`](values.yaml) of the kube-state-metric chart
-  collectors:
-    certificatesigningrequests: false
-    ingresses: false
+  # collectors:
+  #   certificatesigningrequests: false
+  #   ingresses: false
 
 nri-kube-events:
   # nri-kube-events.enabled -- Install the [`nri-kube-events` chart](https://github.com/newrelic/nri-kube-events/tree/main/charts/nri-kube-events)
